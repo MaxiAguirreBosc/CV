@@ -406,6 +406,7 @@ button:focus,
             top,
             transparent 0%,
             rgba(0, 0, 0, 0.5) 100%
+
     );
     }
 
@@ -439,6 +440,12 @@ button:focus,
 .portfolio-item .portfolio-info small {
     color : rgba(255, 255, 255, .5);
     }
+.contenedor-video{
+  margin: 0 15px 30px;
+}
+video{
+  width: 100%;
+}
 
 
 /*-----------------
@@ -735,4 +742,24 @@ button:focus,
     margin     : 0;
     text-align : center;
     top        : 65%;
+    }
+
+    /* Scrool Bar */
+
+    body::-webkit-scrollbar-track
+    {
+    	border-radius: 3px;
+    	background-color: #F5F5F5;
+    }
+
+    body::-webkit-scrollbar
+    {
+    	width: 7px;
+    	background-color: #F5F5F5;
+    }
+
+    body::-webkit-scrollbar-thumb
+    {
+    	border-radius: 3px;
+    	background-color: #A6A6A6;
     }

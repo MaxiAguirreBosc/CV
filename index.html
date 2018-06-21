@@ -11,6 +11,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
 </head>
 <body>
 <div id="main-wrapper">
@@ -34,7 +35,7 @@
                     <span>Técnico en computación</span>
                 </div>
                 <p>
-                  Me encantaría poder formar parte de una empresa en la que poder aplicar todos mis conocimientos y, al mismo tiempo, que me permita desarrollarme profesionalmente en las tareas asignadas y poder continuar mis estudios de Informática en la Universidad de Ingeniería.<br>
+                  Me encantaría poder formar parte de una empresa en la que pueda aplicar todos mis conocimientos y, al mismo tiempo, que me permita desarrollarme profesionalmente en las tareas asignadas y poder continuar mis estudios de Informática en la Universidad de Ingeniería.<br>
                   Tengo deseos de aprender y adaptarme a demandas laborales de diversas indoles ya que soy muy emprendedor y me gusta perfeccionarme cada vez. Gracias a mi formación especializada, considero que puedo aportar valor y seguir desarrollándome profesionalmente en una compañía que coincida con mis valores y expectativas.<br>
                   Como persona organizada y con una gran motivación, soy capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de mí en cualquier proyecto, al mismo tiempo que me esfuerzo por trabajar en equipo y fomentar valores como los del compañerismo.<br>
                 </p>
@@ -348,7 +349,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-6">
-                        <a class="portfolio-item" href="#">
+                        <a class="portfolio-item" data-lightbox="lightbox" href="img/portfolio-2.jpg">
                             <div class="portfolio-thumb">
                                 <img src="img/portfolio-2.jpg" alt="">
                             </div>
@@ -359,7 +360,27 @@
                             </div>
                         </a>
                     </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <a class="portfolio-item" data-lightbox="lightbox" href="img/portfolio-4.jpg">
+                            <div class="portfolio-thumb">
+                                <img src="img/portfolio-4.jpg" alt="">
+                            </div>
+
+                            <div class="portfolio-info">
+                                <h3>Certificado Grupo Assa</h3>
+                                <small>grupoassa.com</small>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="contenedor-video">
+                      <video src="video/StephenVideo.mp4" controls  preload="auto" poster="img/portfolio-3.jpg">
+                      </video>
+                    </div>
+
                 </div>
+
             </div>
         </div>
     </div>
@@ -419,5 +440,6 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/scripts.js"></script>
+<script src="js/lightbox.js"></script>
 </body>
 </html>
